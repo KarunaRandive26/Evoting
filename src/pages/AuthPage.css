@@ -7,7 +7,55 @@
 .fill-a, .fill-b{
     height: 100%;
 }
+.fill-a{
+    align-items: center;
+    justify-content: center;
+}
 .fill-b{
     background-image: url(../images/vote.png);
     background-size: cover;
+    filter: opacity(0.6) drop-shadow(0 0 blueviolet);
+}
+.Authline-1{
+    color: rgb(173, 110, 255) !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Authline-3{
+    opacity: 1;
+    color: rgb(173, 110, 255);
+    background-color: rgb(173, 110, 255);
+    height: 3px;
+}
+.Authlabel{
+    text-align: left;
+    font-weight: bold;
+    color: blueviolet;
+}
+.Authinput{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.Authinput:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.AuthBtn-1{
+    background-color: rgb(128, 30, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-b{
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+}
+.AuthText-1{
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
 }

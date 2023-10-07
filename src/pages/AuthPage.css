@@ -1,0 +1,13 @@
+.loginpage{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh;
+    width: 100vw;
+}
+.fill-a, .fill-b{
+    height: 100%;
+}
+.fill-b{
+    background-image: url(../images/vote.png);
+    background-size: cover;
+}

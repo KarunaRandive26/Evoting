@@ -24,8 +24,7 @@ const AuthPage = () => {
                         
                     </div>
                 </div>
-                <div className="col-md-5 fill-b">
-                </div>
+                <div className="col-md-5 fill-b"></div>
             </div>
 
         </>

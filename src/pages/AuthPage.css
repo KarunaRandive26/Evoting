@@ -41,6 +41,7 @@
     padding:8px;
     box-sizing:border-box;
     transition:.3s;
+    box-shadow: 2px 2px blueviolet;
 }
 .Authinput:focus{
     border-color:dodgerBlue;

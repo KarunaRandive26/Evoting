@@ -20,7 +20,7 @@ const AuthPage = () => {
 
                         <div className="my-2"><a href="#" className="AuthText-1 ">Forgot Password?</a></div>
 
-                        <div className="AuthBtn-1  mx-auto h3"><a href="/profile" className="btn-b my-2">Log In</a></div>
+                        <div className="AuthBtn-1  mx-auto h3"><a href="/otpVerification" className="btn-b my-2">Log In</a></div>
                         
                     </div>
                 </div>

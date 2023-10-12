@@ -8,7 +8,7 @@ const OtpPage = () => {
                 <div class="container">
                     <h2>Verify Your Mobile Number</h2>
                     <p>
-                        We emailed you the six digit code to linked mobile number <br />
+                        We messaged you the six digit code to linked mobile number <br />
                         Enter the code below to confirm your phone number
                     </p>
 
@@ -20,9 +20,9 @@ const OtpPage = () => {
                         <input type="number" class="code" placeholder="0" min="0" max="9" required />
                         <input type="number" class="code" placeholder="0" min="0" max="9" required />
                     </div>
-
+ 
                     <div>
-                        <button type="button" class="btn btn-primary">Verify</button>
+                        <a href="/userpage"><button type="button" class="btn btn-primary">Verify</button></a>
                     </div>
 
                     <small class="info">

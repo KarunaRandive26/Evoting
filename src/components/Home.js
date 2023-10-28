@@ -4,11 +4,11 @@ import Sidebar from "./Sidebar";
 
 const Home = () => {
     return (
-        <> 
-        <div className="userpage d-flex">
-               hi
+        <>
+            <div className="userpage d-flex">
+                hi
             </div>
-</>
+        </>
     );
 };
 

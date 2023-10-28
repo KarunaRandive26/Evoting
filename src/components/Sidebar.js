@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Sidebar = () => {
     return (
         <>
@@ -9,30 +9,30 @@ const Sidebar = () => {
                     <div className="imglogo" style={{ backgroundImage: `url(../images/vote.jpg)`, clipPath: "circle(50% at 50% 50%)", backgroundSize: 'cover' }}></div>
                     <div className="username p-2">username</div>
                 </div>
-                <Link className="secbtn" to="/userpage/home">
-                    <div className="sections d-flex p-2">
-                        <img className="sec-icon p-1" src="../images/home.png" height="40px" width="40px"></img>
-                        <div className="section-name p-3 m-auto">Home</div>
-                    </div>
-                </Link>
-                <Link className="secbtn" to="/userpage/guidelines">
+                <NavLink className="secbtn nav-link" to="/userpage/guidelines">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/guideline.png" height="40px" width="40px"></img>
                         <div className="section-name p-3 m-auto">Guideline</div>
                     </div>
-                </Link>
-                <Link className="secbtn" to="/userpage/vote">
+                </NavLink>
+                <NavLink className="secbtn nav-link" to="/userpage/vote">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/voting.png" height="40px" width="40px"></img>
                         <div className="section-name p-3 m-auto">Voting</div>
                     </div>
-                </Link>
-                <Link className="secbtn" to="/userpage/contact">
+                </NavLink>
+                <NavLink className="secbtn nav-link" to="/userpage/contact">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/phone.png" height="40px" width="40px"></img>
                         <div className="section-name p-3 m-auto">Contact</div>
                     </div>
-                </Link>
+                </NavLink>
+                <NavLink className="secbtn nav-link" to="/userpage/result">
+                    <div className="sections d-flex p-2">
+                        <img className="sec-icon p-1" src="../images/phone.png" height="40px" width="40px"></img>
+                        <div className="section-name p-3 m-auto">Results</div>
+                    </div>
+                </NavLink>
 
             </div>
         </>

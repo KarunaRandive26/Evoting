@@ -10,16 +10,16 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Welcome />} />
-        <Route path="/userauthentication" element={<AuthPage />} />
-        <Route path="/otpVerification" element={<OtpPage />} />
+        <Route path="/" element={<Welcome/>} />
+        <Route path="/userauthentication" element={<AuthPage/>} />
+        <Route path="/otpVerification" element={<OtpPage/>} />
         <Route path="/userpage" element={<UserPage />}>
           <Route path="home"/>
           <Route path="guidelines"/>
           <Route path="vote"/>
           <Route path="contact"/>
+          <Route path="result"/>
         </Route>
-
       </Routes>
     </div>
   );

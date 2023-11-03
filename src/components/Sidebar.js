@@ -29,7 +29,7 @@ const Sidebar = () => {
                 </NavLink>
                 <NavLink className="secbtn nav-link" to="/userpage/result">
                     <div className="sections d-flex p-2">
-                        <img className="sec-icon p-1" src="../images/phone.png" height="40px" width="40px"></img>
+                        <img className="sec-icon p-1" src="../images/announcement.png" height="40px" width="40px"></img>
                         <div className="section-name p-3 m-auto">Results</div>
                     </div>
                 </NavLink>

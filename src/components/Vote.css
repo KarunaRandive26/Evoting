@@ -37,3 +37,27 @@
     height: 40px;
     box-shadow: 2px 2px 11px rgb(183, 182, 182);
 }
+.walkthrough-pagination {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+   
+    .dot {
+      background-color: rgb(156, 156, 156) !important;
+      box-shadow: 1px 1px 5px rgb(143, 143, 143);
+      border-radius: 8px;
+      height: 8px;
+      margin: 0 4px;
+      transform: scale(0.75);
+      /* transition: transform 0.4s $bezier, background 0.4s $bezier; */
+      width: 25px;
+
+    
+    }
+    .active {
+        background-color: rgb(255, 255, 255)!important;
+        transform: scale(1);
+        transition-delay: 0.4s;
+      }
+  }

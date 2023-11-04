@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Welcome/>} />
         <Route path="/userauthentication" element={<AuthPage/>} />
         <Route path="/otpVerification" element={<OtpPage/>} />
-        <Route path="/userpage" element={<UserPage />}>
+        <Route path="/userpage/*" element={<UserPage />}>
           <Route path="home"/>
           <Route path="guidelines"/>
           <Route path="vote"/>

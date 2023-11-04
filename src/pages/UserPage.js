@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import Sidebar from "../components/Sidebar";
 import Contact from "../components/Contact";
 import Vote from "../components/Vote";
+import SubmitVote from "../components/SubmitVote";
 const UserPage = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const UserPage = () => {
                         <Route path="/" element={<Home/>}/>
                         <Route path="/guidelines" element={<Home/>}/>
                         <Route path="/vote" element={<Vote/>}/>
+                        <Route path="/submit" element={<SubmitVote/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/result" element={<Home/>}/>
                     </Routes>

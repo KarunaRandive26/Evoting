@@ -6,6 +6,7 @@ import AuthPage from "./pages/AuthPage";
 import OtpPage from "./pages/OtpPage";
 import UserPage from "./pages/UserPage";
 import Home from "./components/Home";
+import SubmitVote from "./components/SubmitVote";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route path="home"/>
           <Route path="guidelines"/>
           <Route path="vote"/>
+          <Route path="submit"/>
           <Route path="contact"/>
           <Route path="result"/>
         </Route>

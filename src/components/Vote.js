@@ -5,7 +5,7 @@ const Vote = () => {
     return (
         <>
             <div className="userpage votepage">
-                   <div className="voteL-1">1. Choose the Candidate </div>
+                   <div className="voteL-1">2. Choose the Candidate </div>
                    <div className="table-header d-flex my-2">
                        <div className="col-2">Name Of the candidate</div>
                        <div className="col-5">Party</div>

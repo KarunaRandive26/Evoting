@@ -61,3 +61,19 @@
         transition-delay: 0.4s;
       }
   }
+.consti{
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+}
+.asmb{
+    background-color: rgb(29, 222, 126);
+    border-radius: 10px;
+}
+.asmb-name{
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    align-self: center;
+    font-size: 1.5rem;
+}

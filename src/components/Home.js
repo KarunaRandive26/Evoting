@@ -6,7 +6,9 @@ const Home = () => {
     return (
         <>
             <div className="userpage d-flex">
-                hi
+                <div className="backimage d-flex py-auto">
+                    
+                </div>
             </div>
         </>
     );

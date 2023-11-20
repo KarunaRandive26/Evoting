@@ -15,7 +15,8 @@ function App() {
         <Route path="/userauthentication" element={<AuthPage/>} />
         <Route path="/otpVerification" element={<OtpPage/>} />
         <Route path="/userpage/*" element={<UserPage />}>
-          <Route path="home"/>
+          <Route path=""/>
+          <Route path="dashboard"/>
           <Route path="guidelines"/>
           <Route path="vote"/>
           <Route path="submit"/>

@@ -9,6 +9,12 @@ const Sidebar = () => {
                     <div className="imglogo" style={{ backgroundImage: `url(../images/vote.jpg)`, clipPath: "circle(50% at 50% 50%)", backgroundSize: 'cover' }}></div>
                     <div className="username p-2">username</div>
                 </div>
+                <NavLink className="secbtn nav-link" to="/userpage/dashboard">
+                    <div className="sections d-flex p-2">
+                        <img className="sec-icon p-1" src="../images/dashboard.png" height="40px" width="40px"></img>
+                        <div className="section-name p-3 m-auto">Dashboard</div>
+                    </div>
+                </NavLink>
                 <NavLink className="secbtn nav-link" to="/userpage/guidelines">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/guideline.png" height="40px" width="40px"></img>

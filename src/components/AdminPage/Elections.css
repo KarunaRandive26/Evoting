@@ -1,40 +1,21 @@
- .card{
-  text-align: left !important; 
-  border: 2px rgb(49, 210, 219) solid !important; 
+
+.card-body{
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
 }
-.card-btn{
-    text-decoration: none;
-    border-radius: 3px;
-    background-color: purple !important;
-    color: white;
+
+.list-group-item >strong{
+    color:  rgb(255, 192, 0);
 }
-.card-text{
-   font-weight: bold;
-    color: orange;
-}
-.t{
-    font-weight: 400;
-}
-.grey-bg {  
-    background-color: #F5F7FA;
-    height: 100vh;
-  }
-  .ele-dt{
-      color: rgb(1, 158, 1);
-  }
-  .media-body{
-      width: 100%;
-      height: fit-content;
-      text-align: right;
-  }
-  .add-btn-a{
-    padding: 7px 0;
-    background-color: rgb(49, 210, 219) !important;
-    border-radius: 7px;
-   border: 2px solid white;
-   justify-content: left !important;
-   color: white;
-}
-.elec-name{
-    justify-content: left !important; 
+.container-title{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 192, 0) ;
+} 
+.btn-add{
+   border: none;
+   border-radius: 4px;
+   background-color: black !important;
 }

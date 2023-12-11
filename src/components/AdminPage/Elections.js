@@ -3,44 +3,37 @@ import { NavLink } from "react-router-dom";
 import "./Elections.css";
 
 const Elections = () => {
-    return (
-        <>
-            <div className="elect-page p-3">
-                {/* <div class="card col-4" >
-                    <div class="card-body">
-                        <h5 class="card-title elect-name">GramPanchayat</h5>
-                        <div className="d-flex">
-                        <p class="card-text py-1 px-2 m-1">start time</p>
-                        <p class="card-text py-1 px-2 m-1">end time</p>
-                        </div>
-                        
-                        <NavLink to="/admin/addCandidate" class="btn-sm card-btn p-2">Add Candidates</NavLink>
-                    </div>
-                </div> */}
-                <div class="col-xl-4 col-sm-6 col-12">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="card-body">
-                                <div class="media d-flex">
-                                    <div class="align-self-center">
-                                        <h5 className="t">Election</h5>
-                                    <h3 className="elec-name">Gram Panchayat</h3>
-                                    </div>
-                                    <div class="media-body text-right">
-                                        <h4 className="ele-dt">26 Oct 2023</h4>
-                                        <p class="card-text  px-2 m-1">10:00 AM</p>
-                                        <p class="card-text  px-2 m-1">TO</p>
-                                        <p class="card-text  px-2 m-1">5:00 PM</p>
-                                        <NavLink to="/admin/addCandidate"><button className="add-btn-a px-3 py-2">Add Candidates</button></NavLink>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <div className="container ">
+      <div className="container-title mx-3">Current Elections</div>
+      <div className="mt-5">
+        <div className="col-lg-8 col-xs-10 m-3">
+          <div className="card election-card shadow">
+          
+          <img className="position-absolute top-50 start-0 translate-middle sec-ic p-1 ic" src="../images/bookmark.png" height="80px" width="80px" ></img>
+           
+            <div className="card-body d-flex">
+              <div className=" col-4">
+                <h5 className="card-title elect-name mx-3 ">Gram Panchayat</h5>
+              </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item"><strong>Start Time:</strong> 26 Oct 2023, 10:00 AM</li>
+                <li className="list-group-item"><strong>End Time:</strong> 26 Oct 2023, 5:00 PM</li>
+              </ul>
+              <div className="text-center">
+                <NavLink to="/admin/addCandidate">
+                  <button className="btn-add px-3 py-2 btn-primary btn-sm">
+                    Add Candidates
+                  </button>
+                </NavLink>
+              </div>
             </div>
-        </>
-    );
+          </div>
+        </div>
+        {/* Add more election cards as needed */}
+      </div>
+    </div>
+  );
 };
 
 export default Elections;

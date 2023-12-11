@@ -1,6 +1,6 @@
-/* .card{
+ .card{
   text-align: left !important; 
-  border: 2px rgb(255, 192, 0)  solid !important; 
+  border: 2px rgb(49, 210, 219) solid !important; 
 }
 .card-btn{
     text-decoration: none;
@@ -9,17 +9,32 @@
     color: white;
 }
 .card-text{
-    background-color: rgb(29, 214, 29);
-    width: fit-content;
-    color: white;
-    border-radius: 15px;
-} */
+   font-weight: bold;
+    color: orange;
+}
+.t{
+    font-weight: 400;
+}
 .grey-bg {  
     background-color: #F5F7FA;
     height: 100vh;
   }
-  
+  .ele-dt{
+      color: rgb(1, 158, 1);
+  }
   .media-body{
       width: 100%;
+      height: fit-content;
       text-align: right;
   }
+  .add-btn-a{
+    padding: 7px 0;
+    background-color: rgb(49, 210, 219) !important;
+    border-radius: 7px;
+   border: 2px solid white;
+   justify-content: left !important;
+   color: white;
+}
+.elec-name{
+    justify-content: left !important; 
+}

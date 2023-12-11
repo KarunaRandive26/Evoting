@@ -106,10 +106,10 @@ const Voteboard = () => {
     
     </section>
     <div class='walkthrough-pagination'>
-                    <NavLink to="/userpage/vote" className='dot'></NavLink>
-                    <NavLink to="/userpage/voteboard" className='dot'></NavLink>
-                    <NavLink to="/userpage/submit" className='dot'></NavLink>
-                </div>
+        <NavLink to="/userpage/vote" className='dot'></NavLink>
+        <NavLink to="/userpage/voteboard" className='dot'></NavLink>
+        <NavLink to="/userpage/submit" className='dot'></NavLink>
+    </div>
 </div>
         </>
     );

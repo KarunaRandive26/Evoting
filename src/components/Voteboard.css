@@ -34,9 +34,7 @@
     background-color: #F5F7FA;
     height: 100vh;
   }
-  .card{
-    height: 20vh !important;
-  }
+  
   .card:hover{
     transform: scale(1.05);
     z-index: 2;

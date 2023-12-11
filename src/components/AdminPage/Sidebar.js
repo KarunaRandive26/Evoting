@@ -15,6 +15,12 @@ const Sidebar = () => {
                         <div className="section-name p-3 m-auto">Home</div>
                     </div>
                 </NavLink>
+                <NavLink className="secbtn nav-link" to="/admin/Elections">
+                    <div className="sections d-flex p-2">
+                        <img className="sec-icon p-1" src="../images/dashboard.png" height="40px" width="40px"></img>
+                        <div className="section-name p-3 m-auto">Elections</div>
+                    </div>
+                </NavLink>
                 <NavLink className="secbtn nav-link" to="/admin/result">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/announcement.png" height="40px" width="40px"></img>

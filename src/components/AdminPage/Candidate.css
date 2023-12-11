@@ -3,4 +3,5 @@
     background-color: rgb(49, 210, 219) !important;
     border-radius: 7px;
    border: 2px solid white;
+   justify-content: left !important;
 }

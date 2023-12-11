@@ -1,82 +1,116 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Sidebar.css";
 import "./Voteboard.css";
 import { NavLink } from "react-router-dom";
 const Voteboard = () => {
-    useEffect(() => {
-        const asmbElements = document.querySelectorAll(".vote-sec");
-        const colors = ['#0dcaf0','#799eff','blue','#320398']
-        asmbElements.forEach((element, idx) => {
-            element.style.backgroundColor = colors[idx%4];
-        });
-      }, []);
+    
     return (
         <>
-            <div className="userpage votepage">
-                <div className="board-title">Dashboard</div>
-                <div className="consti-info">
-                    <div className="Consti-Sec d-flex">
-                        Election Type: <div className="consti-info">GramPanchayat</div>
-                    </div>
-                    <div className="Consti-Sec d-flex">
-                        District: <div className="consti-info">Ratnagiri</div>
-                    </div>
-                    <div className="Consti-Sec d-flex">
-                        Tehsil: <div className="consti-info">Khed</div>
-                    </div>
-                    <div className="Consti-Sec d-flex">
-                        Village: <div className="consti-info">Bhadgaon</div>
-                    </div>
+            
+
+<div class="grey-bg container-fluid">
+  <section id="minimal-statistics">
+    <div class="row">
+      <div class="col-12 mt-3 mb-1">
+        <h4 class="text-uppercase">Election Analysis</h4>
+        <p>Statistics of Election.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-sm-6 col-12"> 
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="media d-flex">
+                <div class="align-self-center">
+                  <i class="fa-solid fa-user-tie primary font-large-2 float-left"></i>
                 </div>
-                <div className="row v-dash p-2">
-                    <div className="vote-sec col-md-3">
-                        <div className="mx-1 vote-sec-a p-2 d-flex">
-                            <div>
-                                <div className="v-count">3</div>
-                                <div className="v-sec-name">No. Of Positions</div>
-                            </div>
-                            <img className="v-sec-ic p-1" src="../images/slide.png" height="50%" width="50%" ></img>
-                        </div>
-                        <div className="mx-1 v-info p-2">more info</div>
-                    </div>
-                    <div className="vote-sec col-md-3 p-2">
-                        <div className="mx-1 vote-sec-a p-2 d-flex">
-                            <div>
-                                <div className="v-count">3</div>
-                                <div className="v-sec-name">No. Of Candidates</div>
-                            </div>
-                            <img className="v-sec-ic p-1" src="../images/avatar.png" height="50%" width="50%" ></img>
-                        </div>
-                        <div className="mx-1 v-info p-2">more info</div>
-                    </div>
-                    <div className="vote-sec col-md-3">
-                        <div className="mx-1 vote-sec-a p-2 d-flex">
-                            <div>
-                                <div className="v-count">3</div>
-                                <div className="v-sec-name">Total No. Of Voters</div>
-                            </div>
-                            <img className="v-sec-ic p-1" src="../images/candidate.png" height="50%" width="50%" ></img>
-                        </div>
-                        <div className="mx-1 v-info p-2">more info</div>
-                    </div>
-                    <div className="vote-sec col-md-3">
-                        <div className="mx-1 vote-sec-a p-2 d-flex">
-                            <div>
-                                <div className="v-count">3</div>
-                                <div className="v-sec-name">Voters Voted</div>
-                            </div>
-                            <img className="v-sec-ic p-1" src="../images/edit.png" height="50%" width="50%" ></img>
-                        </div>
-                        <div className="mx-1 v-info p-2">more info</div>
-                    </div>
+                <div class="media-body text-right">
+                  <h3>50</h3>
+                  <span>Number of Positions</span>
                 </div>
-                <a href="/userpage/submit"><div className="btn-a"><button>Go to the Vote</button></div></a>
-                <div class='walkthrough-pagination'>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="media d-flex">
+                <div class="align-self-center">
+                  <i class="fa-solid fa-users warning font-large-2 float-left"></i>
+                </div>
+                <div class="media-body text-right">
+                  <h3>156</h3>
+                  <span>Number of Candidates</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="media d-flex">
+                <div class="align-self-center">
+                  <i class="fa-solid fa-user success font-large-2 float-left"></i>
+                </div>
+                <div class="media-body text-right">
+                  <h3>273992</h3>
+                  <span>Number of voters</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="media d-flex">
+                <div class="align-self-center">
+                  <i class="fa-solid fa-user-check danger font-large-2 float-left"></i>
+                </div>
+                <div class="media-body text-right">
+                  <h3>252904</h3>
+                  <span>Voters Voted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="media d-flex">
+                <div class="align-self-center">
+                  <i class="fa-solid fa-percent info font-large-2 float-left"></i>
+                </div>
+                <div class="media-body text-right">
+                  <h3>92.30%</h3>
+                  <span>Voting Percentage</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+    <div class='walkthrough-pagination'>
                     <NavLink to="/userpage/vote" className='dot'></NavLink>
                     <NavLink to="/userpage/voteboard" className='dot'></NavLink>
                     <NavLink to="/userpage/submit" className='dot'></NavLink>
                 </div>
-            </div>
+</div>
         </>
     );
 };

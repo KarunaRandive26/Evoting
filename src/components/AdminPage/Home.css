@@ -52,4 +52,6 @@
     border-radius: 7px;
     border: 2px solid white;
     font-size: bold !important;
+    justify-content: right !important;
 }
+

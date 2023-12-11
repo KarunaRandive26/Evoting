@@ -1,0 +1,25 @@
+/* .card{
+  text-align: left !important; 
+  border: 2px rgb(255, 192, 0)  solid !important; 
+}
+.card-btn{
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: purple !important;
+    color: white;
+}
+.card-text{
+    background-color: rgb(29, 214, 29);
+    width: fit-content;
+    color: white;
+    border-radius: 15px;
+} */
+.grey-bg {  
+    background-color: #F5F7FA;
+    height: 100vh;
+  }
+  
+  .media-body{
+      width: 100%;
+      text-align: right;
+  }

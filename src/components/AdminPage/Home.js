@@ -33,9 +33,10 @@ const Home = () => {
                                 <input type="time"></input>
                             </div>
                             <hr className="line-b"></hr>
-                            <div className="candidate">
-                                <NavLink to="/admin/addCandidate"><button className="btn-sm btn-c p-2">Add Candidates</button></NavLink>
-                            </div>
+                            <input type="Submit" value="Create"></input>
+                            {/* <div className="candidate">
+                                <NavLink to="/admin/addCandidate"><button className="btn-sm btn-c p-2 px-3">Create</button></NavLink>
+                            </div> */}
                         </form>
 
                     </div>

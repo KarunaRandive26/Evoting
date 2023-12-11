@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Sidebar from "../../components/AdminPage/Sidebar";
 import Home from "../../components/AdminPage/Home";
 import Candidate from "../../components/AdminPage/Candidate";
+import Elections from "../../components/AdminPage/Elections";
 
 const AdminPage = () => {
     return (
@@ -15,6 +16,7 @@ const AdminPage = () => {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/Home" element={<Home/>} />
+                        <Route path="/Elections" element={<Elections/>} />
                         <Route path="/addCandidate" element={<Candidate/>} />
                         <Route path="/result" />
                     </Routes>

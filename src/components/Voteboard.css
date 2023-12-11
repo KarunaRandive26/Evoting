@@ -1,0 +1,32 @@
+.board-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(171, 171, 171);
+}
+.vote-sec{
+    color: white !important;
+  }
+  .v-count{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .v-dash{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .vote-sec-a{
+    background-color: rgba(178, 178, 178, 0.283);
+    text-align: left;
+  }
+  .v-sec-name{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+  }
+  .v-info{
+    background-color: rgba(255, 255, 255, 0.356);
+  }
+  .vote-sec:hover{
+     transform: scale(1.05);
+     z-index: 2;
+     transition: transform 500ms ease-in-out;
+  }

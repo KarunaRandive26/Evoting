@@ -6,6 +6,7 @@ import Contact from "../components/Contact";
 import Vote from "../components/Vote";
 import SubmitVote from "../components/SubmitVote";
 import Guidelines from "../components/Guidelines";
+import Voteboard from "../components/Voteboard";
 const UserPage = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const UserPage = () => {
                         <Route path="/dashboard" element={<Home/>}/>
                         <Route path="/guidelines" element={<Guidelines/>}/>
                         <Route path="/vote" element={<Vote/>}/>
+                        <Route path="/voteboard" element={<Voteboard/>}/>
                         <Route path="/submit" element={<SubmitVote/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/result" element={<Home/>}/>

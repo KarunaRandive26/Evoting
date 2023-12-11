@@ -5,20 +5,27 @@ import Welcome from "./pages/Welcome";
 import AuthPage from "./pages/AuthPage";
 import OtpPage from "./pages/OtpPage";
 import UserPage from "./pages/UserPage";
-import Home from "./components/Home";
-import SubmitVote from "./components/SubmitVote";
+import Admin from "./pages/AdminPage/Admin";
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Welcome/>} />
         <Route path="/userauthentication" element={<AuthPage/>} />
+        <Route path="/admin/*" element={<Admin/>}>
+          <Route path=""/>
+          <Route path="home"/>
+          <Route path="result"/>
+          <Route path="addCandidate"/>
+        </Route>
+
         <Route path="/otpVerification" element={<OtpPage/>} />
         <Route path="/userpage/*" element={<UserPage />}>
           <Route path=""/>
           <Route path="dashboard"/>
           <Route path="guidelines"/>
           <Route path="vote"/>
+          <Route path="voteboard"/>
           <Route path="submit"/>
           <Route path="contact"/>
           <Route path="result"/>

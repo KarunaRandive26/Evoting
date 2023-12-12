@@ -40,7 +40,7 @@ const Home = () => {
                         </form>
 
                     </div>
-                    <img src="../images/ashok.png" height="200px" ></img>
+                    <img className="m-3" src="../images/ashok.png" height="200px" ></img>
                 </div>
             </div>
         </>

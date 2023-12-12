@@ -1,42 +1,44 @@
-.board-title{
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(171, 171, 171);
+.grey-bg {  
+  background-color: #F5F7FA;
+  height: 100vh;
 }
-.vote-sec{
-    color: white !important;
-  }
-  .v-count{
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .v-dash{
-    padding: 0px !important;
-    margin: 0px !important;
-  }
-  .vote-sec-a{
-    background-color: rgba(178, 178, 178, 0.283);
-    text-align: left;
-  }
-  .v-sec-name{
-    font-size: 20px !important;
-    font-weight: 400 !important;
-  }
-  .v-info{
-    background-color: rgba(255, 255, 255, 0.356);
-  }
-  .vote-sec:hover{
-     transform: scale(1.05);
-     z-index: 2;
-     transition: transform 500ms ease-in-out;
-  }
-  .grey-bg {  
-    background-color: #F5F7FA;
-    height: 100vh;
-  }
-  
-  .card:hover{
-    transform: scale(1.05);
-    z-index: 2;
-    transition: transform 500ms ease-in-out;
-  }
+.card{
+  height: 20vh !important;
+  margin: 10px;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: transform 500ms ease-in-out;
+}
+
+.card-text{
+  justify-items: right !important;
+}
+
+.media-body{
+  width: 100%;
+  text-align: right;
+}
+.icon-primary{
+  color: rgb(0, 81, 255);
+  font-size: 50px;
+}
+.icon-warning{
+  color: rgb(255, 132, 0);
+  font-size: 50px;
+}
+.icon-success{
+  color: rgb(48, 201, 2);
+  font-size: 50px;
+}
+.icon-danger{
+  color: rgb(255, 17, 0);
+  font-size: 50px;
+}
+.icon-skyBlue{
+  color: rgb(0, 242, 255);
+  font-size: 50px;
+}
+.text-right{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

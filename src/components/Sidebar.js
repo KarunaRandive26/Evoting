@@ -33,10 +33,17 @@ const Sidebar = () => {
                         <div className="section-name p-3 m-auto">Contact</div>
                     </div>
                 </NavLink>
+                
                 <NavLink className="secbtn nav-link" to="/userpage/result">
                     <div className="sections d-flex p-2">
                         <img className="sec-icon p-1" src="../images/announcement.png" height="40px" width="40px"></img>
                         <div className="section-name p-3 m-auto">Results</div>
+                    </div>
+                </NavLink>
+                <NavLink className="secbtn nav-link" to="/">
+                    <div className="sections d-flex p-2">
+                        <img className="sec-icon p-1" src="../images/logout.png" height="40px" width="40px"></img>
+                        <div className="section-name p-3 m-auto">Logout</div>
                     </div>
                 </NavLink>
 

@@ -1,5 +1,8 @@
 .createpage{
     color: white !important;
+    
+}
+.create{
     transform: scale(1.1);
 }
 .home-title{

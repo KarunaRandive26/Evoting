@@ -1,7 +1,8 @@
-.add-btn{
-    padding: 7px 0;
-    background-color: rgb(49, 210, 219) !important;
-    border-radius: 7px;
-   border: 2px solid white;
-   justify-content: left !important;
+
+.adminpage > .table-header{
+    background-color: rgb(254, 199, 33);
+}
+.cad-check{
+    transform: scale(2);
+    color-scheme: green !important;
 }

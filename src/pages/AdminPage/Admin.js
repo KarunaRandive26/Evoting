@@ -5,6 +5,7 @@ import Sidebar from "../../components/AdminPage/Sidebar";
 import Home from "../../components/AdminPage/Home";
 import Candidate from "../../components/AdminPage/Candidate";
 import Elections from "../../components/AdminPage/Elections";
+import Result from "../../components/AdminPage/Result";
 
 const AdminPage = () => {
     return (
@@ -18,7 +19,7 @@ const AdminPage = () => {
                         <Route path="/Home" element={<Home/>} />
                         <Route path="/Elections" element={<Elections/>} />
                         <Route path="/addCandidate" element={<Candidate/>} />
-                        <Route path="/result" />
+                        <Route path="/result" element={<Result/>}/>
                     </Routes>
                     </div>
                 </div>

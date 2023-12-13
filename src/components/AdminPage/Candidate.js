@@ -49,11 +49,15 @@ const Candidate = () => {
                     <div className="col-2 m-auto"><img className="" src="../images/logo1.png" ></img></div>
                 </div>
                 <hr className="vline-1 col-11 m-auto"></hr>
-                <div class='walkthrough-pagination'>
-                    <NavLink to="/userpage/vote" className='dot'></NavLink>
-                    <NavLink to="/userpage/voteboard" className='dot'></NavLink>
-                    <NavLink to="/userpage/submit" className='dot'></NavLink>
-                </div>
+                <button className="btn-add m-3 px-3 py-2 btn-primary btn-sm">
+                    Add Candidates
+                </button>
+                <NavLink to="/admin/Elections">
+                  <button className="btn-prev px-3 py-2 btn-primary btn-sm">
+                    Previous
+                  </button>
+                </NavLink>
+                
             </div>
         </>
     );

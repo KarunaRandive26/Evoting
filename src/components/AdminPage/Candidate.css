@@ -6,3 +6,8 @@
     transform: scale(2);
     color-scheme: green !important;
 }
+.btn-prev{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(150, 150, 150) !important;
+ }
